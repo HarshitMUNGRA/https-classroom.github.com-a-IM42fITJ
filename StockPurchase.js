@@ -1,7 +1,7 @@
 "use strict";
 /*
-Author: Hamlet Lin
-Date: 9/13/2023
+Author: Harshit Mungra
+Date: 9/14/2023
 Description: Part of exercise 2 in PROG1700 
 Stock Purchase The following steps calculate the amount of a stock purchase: 
 A. Assign the value 25.625 to the variable cost_per_share.
@@ -14,15 +14,13 @@ function main()
 {
     //input
     // define the variables and assign values
-    let cost_per_share = 25.625;
-    let number_of_shares = 400;
 
     //process
-    let markdown = cost_per_share * number_of_shares;
+    
 
     //output
     //display the result
-    console.log("Markdown: " + markdown);
+    
 }
 
 // DO NOT EDIT: Trigger our main function to launch the program
