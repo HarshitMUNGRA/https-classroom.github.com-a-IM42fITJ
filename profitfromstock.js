@@ -15,7 +15,7 @@ function main()
 let purchase_price = 10;
 let selling_price = 15;
 
-let percent_profit = 100 * (selling_price - purchase_price / purchase_price);
+let percent_profit = 100 * (selling_price - purchase_price);
 
 console.log("Your total profit from stocks = " + percent_profit);
 
