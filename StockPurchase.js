@@ -14,8 +14,8 @@ function main()
 {
     //input
     // define the variables and assign values
-    cost_per_share = 26.625;
-    number_of_shares = 400;
+    var cost_per_share = 26.625;
+    var number_of_shares = 400;
       
     //process
     var markdown = cost_per_share * number_of_shares;
