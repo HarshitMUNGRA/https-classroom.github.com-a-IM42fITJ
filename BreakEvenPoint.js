@@ -1,7 +1,7 @@
 "use strict";
 /*
-Author: Hamlet Lin
-Date: 9/13/2023
+Author: Harshit Mungra
+Date: 9/14/2023
 Description: Part of exercise 2 in PROG1700 
 Break-Even Point The following steps calculate a company’s break-even point, the number of 
 units of goods the company must manufacture and sell in order to break even: 
@@ -18,14 +18,15 @@ function main()
     // input, assign values
     let fixed_costs = 5000;
     let price_per_unit = 8;
-    let cost_per_unit = 6;   
+    let cost_per_unit = 6;
+    
     
     //process
     //calculate the break_even_point
     let break_even_point = fixed_costs / (price_per_unit - cost_per_unit);
 
     //output
-    console.log("Break even point: " + break_even_point);
+    console.log("Your break even point is " + break_even_point);
 }
 
 // DO NOT EDIT: Trigger our main function to launch the program
