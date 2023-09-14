@@ -1,7 +1,7 @@
 "use strict";
 /*
-Author: Hamlet Lin
-Date: 9/13/2023
+Author: Harshit Mungra
+Date: 9/14/2023
 Description: Part of exercise 2 in PROG1700 
 Savings Account The following steps calculate the balance at the end of three years when $100 
 is deposited at the beginning of each year in a savings account at 5 % interest compounded 
@@ -19,12 +19,12 @@ function main()
     let balance = 100;
 
     //process
-    balance = balance*1.05 + 100
-    balance = balance*1.05 + 100
-    balance = balance*1.05
+    balance = balance*.5 + 100;
+    balance = balance*0.5 + 100;
+    balance = balance*0.5;
 
     //output
-    console.log("Balance: " + balance.toFixed(2));
+    console.log("Your totral balance after adding all promotions = " + balance);
 }
 
 // DO NOT EDIT: Trigger our main function to launch the program
